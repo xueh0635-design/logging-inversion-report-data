@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "output_dir": "data/report_smoothing_db",
+  "index_sha256": "2c93bc52e1561c2216b489901ec847dee68299ac15ce353c307d355627d1d045",
+  "index_bytes": 297774,
+  "profiles": 900,
+  "theta": 0.7018488645553589,
+  "eta": 0.3342987895011902,
+  "iterations": 8,
+  "source_commit": "7e60e7adfc54e82e1603d24ec68069c091ee4212",
+  "source_sha256": "6ef76303b5ba9e2f18f2ef818bb317b7fae37ad6c80e3b92659b9fcf7c225274",
+  "checkpoint_sha256": "cf75c5f9aac61a94eae93b1a82848524d5cec354b2ccbab883a6fce40dcfd537",
+  "control_checkpoint_sha256": "af59c9542408dc67013865c89eab1f923a9d810c01301cd94aad9e7d3365d2ef",
+  "all_model_tensors_identical": true,
+  "sources": [
+    {
+      "file": "/Users/baizhong/Desktop/unet代码/archives/windows/LoggingInversionResearch/main_network_improve_20261030/run_03/evaluation/CONTROL/x.npy",
+      "path": "D:\\LoggingInversionResearch\\main_network_improve_20261030\\run_03\\evaluation\\CONTROL\\x.npy",
+      "bytes": 57600128,
+      "sha256": "5d16a08db0555c42f90e8f59a618bc25363dd28e432469fe1dc9a85dd1b61a43"
+    },
+    {
+      "file": "/Users/baizhong/Desktop/unet代码/archives/windows/LoggingInversionResearch/main_network_improve_20261030/run_03/evaluation/CONTROL/target.npy",
+      "path": "D:\\LoggingInversionResearch\\main_network_improve_20261030\\run_03\\evaluation\\CONTROL\\target.npy",
+      "bytes": 57600128,
+      "sha256": "74fdbeb5e321e1e772925f119a38ffbf4b6420d96f0f40bd6fb1eabf7ca43b57"
+    },
+    {
+      "file": "/Users/baizhong/Desktop/unet代码/archives/windows/LoggingInversionResearch/main_network_improve_20261030/run_03/evaluation/CONTROL/rho_raw.npy",
+      "path": "D:\\LoggingInversionResearch\\main_network_improve_20261030\\run_03\\evaluation\\CONTROL\\rho_raw.npy",
+      "bytes": 57600128,
+      "sha256": "77239d0457e8a11b3a6ecde988a9c71317b00da03d365b4d4e6d18be72860d13"
+    },
+    {
+      "file": "/Users/baizhong/Desktop/unet代码/archives/windows/LoggingInversionResearch/main_network_improve_20261030/run_03/evaluation/CONTROL/boundary_logit.npy",
+      "path": "D:\\LoggingInversionResearch\\main_network_improve_20261030\\run_03\\evaluation\\CONTROL\\boundary_logit.npy",
+      "bytes": 57600128,
+      "sha256": "54ac890aa2cea8cd69d7c92fc57d404bfcddd4762f6c1c0f33514b8df9c0102b"
+    },
+    {
+      "file": "/Users/baizhong/Desktop/unet代码/archives/windows/LoggingInversionResearch/main_network_improve_20261030/run_03/evaluation/CONTROL/rho.npy",
+      "path": "D:\\LoggingInversionResearch\\main_network_improve_20261030\\run_03\\evaluation\\CONTROL\\rho.npy",
+      "bytes": 57600128,
+      "sha256": "9fa57609b3e85bbb46368f9d41a3350035ce1d2987b5ca8b85a4e2bf7643aadf"
+    }
+  ],
+  "profile_ids_path": "/Users/baizhong/Desktop/unet代码/archives/windows/LoggingInversionResearch/main_network_improve_20261030/run_03/evaluation/CONTROL/profile_ids.json",
+  "profile_ids_sha256": "0da9d14604bff1eae3408afd8d69d53c1d461712068e0febafb7258e6402af5f",
+  "max_replay_error": 2.913621491984486e-05,
+  "scope": "Saved outputs only; physical-unit affine-equivalent diffusion replay, no full-network inference/training/calibration/new scientific evaluation."
+}
